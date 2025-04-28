@@ -8,7 +8,7 @@ export const Home = () => {
       className="min-h-screen flex items-center justify-center relative px-4 py-8 pt-28" // 👈 pt-28 = padding top to push below navbar
     >
       <RevealOnScroll>
-        <div className="flex flex-col md:flex-row items-center justify-center text-center md:text-left z-10 px-4 space-y-8 md:space-y-0 md:space-x-8">
+        <div className="flex flex-col md:flex-row items-center justify-center text-center z-10 px-4 space-y-8 md:space-y-0 md:space-x-8">
           {/* Text section */}
           <div className="md:w-1/2">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-500 to-cyan-400 bg-clip-text text-transparent leading-right">
@@ -42,7 +42,7 @@ export const Home = () => {
               </a>
 
               <a
-                href="./resume.pdf"
+                href="/jz-portfolio/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-cyan-400 transition duration-300"
@@ -53,9 +53,9 @@ export const Home = () => {
           </div>
 
           {/* Image section */}
-          <div className="flex justify-center md:justify-start md:w-1/2">
+          <div className="flex justify-center">
             <img
-              src="./quagsit.png"
+              src="/jz-portfolio/quagsit.png"
               alt="Jeannie"
               className="w-60 h-60 md:w-100 md:h-100 rounded-full object-cover border-4 border-green-300"
             />
