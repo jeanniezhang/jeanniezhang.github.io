@@ -42,7 +42,7 @@ export const Home = () => {
               </a>
 
               <a
-                href="/resume.pdf"
+                href="./resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-cyan-400 transition duration-300"
@@ -55,7 +55,7 @@ export const Home = () => {
           {/* Image section */}
           <div className="flex justify-center md:justify-start md:w-1/2">
             <img
-              src="/quagsit.png"
+              src="./quagsit.png"
               alt="Jeannie"
               className="w-60 h-60 md:w-100 md:h-100 rounded-full object-cover border-4 border-green-300"
             />
