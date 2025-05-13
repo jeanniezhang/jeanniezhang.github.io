@@ -47,8 +47,7 @@ export const About = () => {
             <p className="text-gray-300 mb-6">
               I'm experienced with building scalable full-stack web applications
               and creating innovative solutions to problems you never even knew
-              you had. Fun fact: I can type 100 wpm with both hands, and 70 wpm
-              with one >:)
+              you had. I'm excited to take on whatever challenges come my way!
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -58,7 +57,7 @@ export const About = () => {
                   {languageSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-green-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                      className="bg-blue-500/10 text-green-300 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                     >
@@ -77,7 +76,7 @@ export const About = () => {
                   {frameworksAndLibraries.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-green-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                      className="bg-blue-500/10 text-green-300 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
                     "
                     >
@@ -94,12 +93,13 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> ✨ Education ✨ </h3>
               <p className="text-gray-300 mb-6">
                 I'm currently pursuing a{" "}
-                <span className="text-green-400">
+                <span className="text-green-300">
                   Bachelor of Computer Science
                 </span>{" "}
                 at the{" "}
-                <span className="text-green-400">University of Waterloo</span>.
-                It's going pretty well so far! I'll be graduating in 2026.
+                <span className="text-green-300">University of Waterloo</span>.
+                I'm excited to be graduating in 2026 with a diploma in creative
+                writing.
               </p>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
@@ -108,10 +108,19 @@ export const About = () => {
                 🐸 Work Experience 🐸{" "}
               </h3>
               <p className="text-gray-300 mb-6">
-                In the past, I've worked as a software engineering intern at{" "}
+                Currently, I'm a software engineering intern at{" "}
                 <a
-                  href="https://withmantle.com/" // replace with real URL
-                  className="text-green-400 hover:underline"
+                  href="https://www.kaleidoscope.bio/"
+                  className="text-green-300 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Kaleidoscope
+                </a>
+                . In the past I've also worked at{" "}
+                <a
+                  href="https://withmantle.com/"
+                  className="text-green-300 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -120,7 +129,7 @@ export const About = () => {
                 , a stealth startup based in San Francisco,{" "}
                 <a
                   href="https://okos.ca/index.html"
-                  className="text-green-400 hover:underline"
+                  className="text-green-300 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -129,13 +138,13 @@ export const About = () => {
                 , and{" "}
                 <a
                   href="https://www.definityfinancial.com/English/overview/default.aspx"
-                  className="text-green-400 hover:underline"
+                  className="text-green-300 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Definity
                 </a>
-                . I'm so excited to see where the future takes me!
+                . I'm so excited to see where the future takes me.
               </p>
             </div>
           </div>

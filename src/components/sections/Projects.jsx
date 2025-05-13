@@ -17,14 +17,14 @@ export const Projects = () => {
               <h3 className="text-xl font-bold mb-2"> Awake Again</h3>
               <p className="text-gray-400 mb-4">
                 A narrative-driven top-down RPG created as a part of Brackey's
-                Game Jam 2024, ranking top 15% overall. Discover the mystery
-                behind a locked door.
+                Game Jam 2024, ranking top 15% overall. Play as a child lost in
+                a liminal space without exit.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Unity", "C#", "UI/UX", "Pixel Art"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-green-500 py-1 px-3 rounded-full text-sm hover:bg-green-500/20 
+                    className="bg-blue-500/10 text-green-300 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                     "
                   >
@@ -36,7 +36,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://tanavast.itch.io/awake-again"
-                  className="text-green-400 hover:text-green-300 transition-colors my-4"
+                  className="text-green-300 hover:text-cyan-500 transition-colors my-4"
                 >
                   View Project →
                 </a>
@@ -62,10 +62,10 @@ export const Projects = () => {
                     <span
                       key={key}
                       className="
-                      bg-blue-500/10 text-green-500 py-1 px-3 
+                      bg-blue-500/10 text-green-300 py-1 px-3 
                       rounded-full text-sm
                       transition
-                      hover:bg-green-500/20 hover:-translate-y-0.5
+                      hover:bg-blue-500/20 hover:-translate-y-0.5
                       hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
                     "
                     >
@@ -77,7 +77,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://devpost.com/software/memo-rable"
-                  className="text-green-400 hover:text-green-300 transition-colors my-4"
+                  className="text-green-300 hover:text-cyan-500 transition-colors my-4"
                 >
                   View Project →
                 </a>
