@@ -42,7 +42,7 @@ export const Home = () => {
               </a>
 
               <a
-                href="/resume.pdf"
+                href="/Jeannie_Zhang_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-cyan-400 transition duration-300"
