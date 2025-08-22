@@ -35,8 +35,13 @@ export const Contact = () => {
         <div className="px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-green-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
-            Drop Me a Line
+            Inbox Always Open
           </h2>
+          <p className="text-gray-400 text-center mb-10 max-w-2xl mx-auto">
+            Send me professional inquiries, send me Clarkesworld stories, send
+            me spam. Better yet, send me your best Snapple fact. (And yes, there
+            are bonus points for the latter.)
+          </p>
           <form className="space-y-6" onSubmit={handleSubmit}>
             <div className="relative">
               <input
@@ -76,7 +81,7 @@ export const Contact = () => {
                 rows={5}
                 value={formData.message}
                 className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
-                placeholder="Your Mesage"
+                placeholder="Your Message"
                 onChange={(e) =>
                   setFormData({ ...formData, message: e.target.value })
                 }
