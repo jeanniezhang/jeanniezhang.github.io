@@ -6,6 +6,7 @@ import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
+import { ArtCarouselSection } from "./components/sections/MyArt";
 import { Contact } from "./components/sections/Contact";
 import { CarouselSection } from "./components/sections/Carousel";
 
@@ -20,6 +21,7 @@ function App() {
         <Home />
         <About />
         <Projects />
+        <ArtCarouselSection />
         <CarouselSection />
         <Contact />
       </div>
