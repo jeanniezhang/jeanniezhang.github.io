@@ -45,9 +45,9 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              I'm experienced with building scalable full-stack web applications
-              and creating innovative solutions to problems you never even knew
-              you had. I'm excited to take on whatever challenges come my way!
+              I'm experienced at building scalable full-stack web apps and
+              creating innovative solutions to all the problems you never even
+              knew you had. Here's the tech stacks I'm familiar with:
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -98,8 +98,9 @@ export const About = () => {
                 </span>{" "}
                 at the{" "}
                 <span className="text-green-300">University of Waterloo</span>.
-                I'm excited to be graduating in 2026 with a diploma in creative
-                writing.
+                I'll be graduating in 2026 with a bonus diploma in creative
+                writing. (Accidentally put all my spare skill points in one
+                place, oops.)
               </p>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
@@ -110,14 +111,23 @@ export const About = () => {
               <p className="text-gray-300 mb-6">
                 Currently, I'm a software engineering intern at{" "}
                 <a
-                  href="https://www.kaleidoscope.bio/"
+                  href="https://www.aboutamazon.com/news/operations/amazon-robotics-robots-fulfillment-center"
+                  className="text-green-300 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Amazon Robotics
+                </a>
+                . In the past I've also worked at{" "}
+                <a
+                  href="https://withmantle.com/"
                   className="text-green-300 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Kaleidoscope
                 </a>
-                . In the past I've also worked at{" "}
+                ,{" "}
                 <a
                   href="https://withmantle.com/"
                   className="text-green-300 hover:underline"

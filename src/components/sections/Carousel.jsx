@@ -23,13 +23,12 @@ export const CarouselSection = () => {
     },
     {
       src: "normalpics/normal_6.jpeg",
-      caption:
-        "i saw a stranger take a picture here and copied her without speaking",
+      caption: "i saw a stranger take a picture here so i copied her!",
     },
     {
       src: "normalpics/normal_8.jpeg",
       caption:
-        "i sketched him outside of the trader joe's near tompkins square (is there anything as undoing as a brother?)",
+        "i sketched my brother outside of the trader joe's near tompkins square. it was a sunny day in the city",
     },
     {
       src: "normalpics/normal_9.jpeg",
@@ -38,17 +37,17 @@ export const CarouselSection = () => {
     {
       src: "normalpics/normal_10.jpeg",
       caption:
-        "even here, the light passes through (i wrote a letter to an incarcerated artist in this room)",
+        "even here, the light perseveres (i left a note for the incarcerated artist who painted this)",
     },
     {
       src: "normalpics/normal_11.jpeg",
       caption:
-        "know what you are / know what you will be / ashes upon ashes / bones upon bones",
+        "a voice echoes through the dark: know what you are / know what you will be / ashes upon ashes / bones upon bones",
     },
     {
       src: "normalpics/normal_12.jpeg",
       caption:
-        "sketch of my friend (not very good but i will practice that which is difficult, yes i will)",
+        "this is a sketch of my friend (im not very good but i tell myself that i will practice things that are difficult)",
     },
   ];
 
@@ -61,20 +60,15 @@ export const CarouselSection = () => {
     >
       <RevealOnScroll>
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-green-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            The Great City Daze of Summer 2025
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-green-500 to-cyan-400 bg-clip-text text-transparent text-center">
+            Postcards from NYC
           </h2>
-          <p className="text-gray-400 text-center mb-10 max-w-2xl mx-auto">
-            I spent a quiet four months in New York City. Seeing as we are all
-            mere accumulations of moments, here are some of mine for sharing.
-            Click in for the good ol' editorial.
-          </p>
 
           <Swiper
             modules={[Navigation, Pagination, Autoplay, Grid]}
             navigation
             pagination={{ clickable: true }}
-            autoplay={{ delay: 4000 }}
+            autoplay={{ delay: 5000 }}
             loop={true}
             grid={{ rows: 1 }}
             breakpoints={{
@@ -92,7 +86,7 @@ export const CarouselSection = () => {
                   <img
                     src={img.src}
                     alt={img.caption}
-                    className="max-h-[70vh] w-auto sm:w-full sm:h-auto sm:aspect-square sm:object-cover object-contain"
+                    className="max-h-[60vh] max-w-[80vh] w-auto sm:h-auto sm:aspect-square sm:object-cover object-contain"
                   />
                 </div>
               </SwiperSlide>
@@ -109,7 +103,10 @@ export const CarouselSection = () => {
         >
           <div
             className="bg-black/90 p-6 max-w-3xl w-full"
-            onClick={(e) => e.stopPropagation()}
+            onClick={(e) => {
+              e.stopPropagation();
+              setSelected(null);
+            }}
           >
             <img
               src={selected.src}

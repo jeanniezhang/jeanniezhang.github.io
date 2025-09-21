@@ -51,7 +51,7 @@ export const Contact = () => {
                 required
                 value={formData.name}
                 className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
-                placeholder="Name"
+                placeholder="<Name>"
                 onChange={(e) =>
                   setFormData({ ...formData, name: e.target.value })
                 }
@@ -66,7 +66,7 @@ export const Contact = () => {
                 required
                 value={formData.email}
                 className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
-                placeholder="example@gmail.com"
+                placeholder="<example@gmail.com>"
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
                 }
@@ -81,7 +81,7 @@ export const Contact = () => {
                 rows={5}
                 value={formData.message}
                 className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
-                placeholder="Your Message"
+                placeholder={`<Your Message Here>\n\n(i.e. Hey Jeannie! Did you know that it's as easy to bite through carrots as it is to bite through your own fingers?)`}
                 onChange={(e) =>
                   setFormData({ ...formData, message: e.target.value })
                 }

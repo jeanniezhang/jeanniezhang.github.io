@@ -16,10 +16,10 @@ export const Home = () => {
             </h1>
 
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto md:mx-0">
-              I write code to make websites. I'm passionate about learning about
-              tech and making an impact wherever I go. In my free time, I like
-              to crochet, play chess, and write speculative fiction. Thanks for
-              dropping by!
+              I write code to make things possible. I'm passionate about all
+              things tech and bringing about the Singularity. In my free time, I
+              like to write speculative fiction about dystopian futures, play
+              chess (poorly), and doodle silly things. Thanks for dropping by!
             </p>
 
             <div className="flex justify-center md:justify-start space-x-4 mb-8">
