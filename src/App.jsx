@@ -21,7 +21,7 @@ function App() {
         <Home />
         <About />
         <Projects />
-        <ArtCarouselSection />
+        {/* <ArtCarouselSection /> */}
         <CarouselSection />
         <Contact />
       </div>
