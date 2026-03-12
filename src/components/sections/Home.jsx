@@ -17,9 +17,9 @@ export const Home = () => {
 
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto md:mx-0">
               I write code to make things possible. I'm passionate about all
-              things tech and bringing about the Singularity. In my free time, I
-              like to write speculative fiction about dystopian futures, play
-              chess (poorly), and doodle silly things. Thanks for dropping by!
+              things tech. In my free time, I like to write speculative fiction
+              about dystopian futures, play bullet chess, and doodle silly
+              things. Thanks for dropping by!
             </p>
 
             <div className="flex justify-center md:justify-start space-x-4 mb-8">

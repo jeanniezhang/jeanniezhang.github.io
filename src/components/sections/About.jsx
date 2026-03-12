@@ -47,7 +47,7 @@ export const About = () => {
             <p className="text-gray-300 mb-6">
               I'm experienced at building scalable full-stack web apps and
               creating innovative solutions to all the problems you never even
-              knew you had. Here's the tech stacks I'm familiar with:
+              knew you had. Here's the tech stack I'm familiar with:
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -109,7 +109,7 @@ export const About = () => {
                 🐸 Work Experience 🐸{" "}
               </h3>
               <p className="text-gray-300 mb-6">
-                Currently, I'm a software engineering intern at{" "}
+                In the past, I've worked as a software engineering intern at{" "}
                 <a
                   href="https://www.aboutamazon.com/news/operations/amazon-robotics-robots-fulfillment-center"
                   className="text-green-300 hover:underline"
@@ -118,9 +118,9 @@ export const About = () => {
                 >
                   Amazon Robotics
                 </a>
-                . In the past I've also worked at{" "}
+                ,{" "}
                 <a
-                  href="https://withmantle.com/"
+                  href="https://www.kaleidoscope.bio/"
                   className="text-green-300 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -154,7 +154,7 @@ export const About = () => {
                 >
                   Definity
                 </a>
-                . I'm so excited to see where the future takes me.
+                . I'm excited to see where the future takes me.
               </p>
             </div>
           </div>

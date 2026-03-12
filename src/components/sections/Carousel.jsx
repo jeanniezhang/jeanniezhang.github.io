@@ -25,11 +25,11 @@ export const CarouselSection = () => {
       src: "normalpics/normal_6.jpeg",
       caption: "i saw a stranger take a picture here so i copied her!",
     },
-    {
-      src: "normalpics/normal_8.jpeg",
-      caption:
-        "i sketched my brother outside of the trader joe's near tompkins square. it was a sunny day in the city",
-    },
+    // {
+    //   src: "normalpics/normal_13.jpeg",
+    //   caption:
+    //     "i sketched my brother outside of the trader joe's near tompkins square. it was a sunny day in the city",
+    // },
     {
       src: "normalpics/normal_9.jpeg",
       caption: "summer '26, i have high hopes for you",
@@ -40,15 +40,27 @@ export const CarouselSection = () => {
         "even here, the light perseveres (i left a note for the incarcerated artist who painted this)",
     },
     {
-      src: "normalpics/normal_11.jpeg",
-      caption:
-        "a voice echoes through the dark: know what you are / know what you will be / ashes upon ashes / bones upon bones",
+      src: "normalpics/normal_15.jpg",
+      caption: "nothing like a fire to enlighten the Institution",
     },
-    {
-      src: "normalpics/normal_12.jpeg",
-      caption:
-        "this is a sketch of my friend (im not very good but i tell myself that i will practice things that are difficult)",
-    },
+    // {
+    //   src: "normalpics/normal_14.png",
+    //   caption: "my dog tony is the best boy!",
+    // },
+    //   src: "normalpics/normal_11.jpeg",
+    //   caption:
+    //     "a voice echoes through the dark: know what you are / know what you will be / ashes upon ashes / bones upon bones",
+    // },
+    // {
+    //   src: "normalpics/normal_12.jpeg",
+    //   caption:
+    //     "this is a sketch of my friend (im not very good but i tell myself that i will practice things that are difficult)",
+    // },
+    // {
+    //   src: "normalpics/normal_8.png",
+    //   caption:
+    //     "accept it. the body is an object and objects break down. do what good you can with yours, before the rest goes too.",
+    // },
   ];
 
   const [selected, setSelected] = useState(null);
@@ -61,7 +73,7 @@ export const CarouselSection = () => {
       <RevealOnScroll>
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-green-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            Postcards from NYC
+            Postcards from the Gyre
           </h2>
 
           <Swiper
